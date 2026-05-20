@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: echo-api-config
+data:
+  WELCOME_MESSAGE: "Hello from the cluster! Please don't kubectl delete me."
+  NODE_ENV: "production"
